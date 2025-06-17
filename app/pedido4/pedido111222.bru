@@ -1,0 +1,24 @@
+meta {
+  name: pedido111222
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/compra/836
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "nif_cliente": "123456789",
+    "bilhetes": [
+      {
+        "nome": "Ana Silva",
+        "classe": 2
+      }
+    ]
+  }
+  
+}
