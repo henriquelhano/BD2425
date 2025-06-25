@@ -56,7 +56,10 @@ O projeto inclui consultas OLAP para análise de dados, como:
 - Rotas mais populares.
 - Estatísticas de vendas.
 
-### Nota final
+### Nota Final
+- E1: 11.7 out of 20.00
+- E2: 17.3 out of 20.00
+- Nota Final: 14.5 out of 20.00
 Primeira entrega:
 - 11.7
 Segunda entrega:
