@@ -1,4 +1,4 @@
-# BD-2025 - Projeto de Bases de Dados
+# BD2425 - Projeto de Bases de Dados
 
 ## Descrição Geral
 Este repositório contém o projeto desenvolvido para a disciplina de Bases de Dados no ano letivo de 2024-2025. O projeto é dividido em duas partes principais:
