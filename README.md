@@ -57,6 +57,6 @@ O projeto inclui consultas OLAP para análise de dados, como:
 - Estatísticas de vendas.
 
 ### Nota Final
-- E1: 11.7 out of 20.00
-- E2: 17.3 out of 20.00
-- Nota Final: 14.5 out of 20.00
+- E1: 11.7 em 20.00
+- E2: 17.3 em 20.00
+- Nota Final: 14.5 em 20.00
