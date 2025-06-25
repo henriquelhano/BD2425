@@ -36,7 +36,9 @@ Este repositório contém o projeto desenvolvido para a disciplina de Bases de D
 - `GET /`: Lista todos os aeroportos.
 - `GET /voos/<partida>`: Lista voos a partir de um aeroporto específico.
 - `GET /voos/<partida>/<chegada>`: Lista voos entre dois aeroportos.
-- `POST /compra/<voo>`: Registra a compra de bilhetes para um voo.
+- `POST /compra/<voo>`: Regista a compra de bilhetes para um voo.
+- `POST /checkin/<bilhete>`: Regista a o checkin dos bilhetes comprados sem lugar atribuído
+
 
 ### Base de Dados
 A base de dados contém as seguintes tabelas principais:
