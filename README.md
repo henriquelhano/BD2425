@@ -46,7 +46,7 @@ A base de dados contém as seguintes tabelas principais:
 - `aviao`: Informações sobre aviões.
 - `assento`: Assentos disponíveis nos aviões.
 - `voo`: Informações sobre voos.
-- `venda`: Registro de vendas de bilhetes.
+- `venda`: Registo de vendas de bilhetes.
 - `bilhete`: Informações sobre bilhetes emitidos.
 
 
@@ -63,6 +63,3 @@ Segunda entrega:
 -17.3
 Final:
 14.5
-
-
-#
