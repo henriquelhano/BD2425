@@ -1,7 +1,7 @@
 # BD-2025 - Projeto de Bases de Dados
 
 ## Descrição Geral
-Este repositório contém o projeto desenvolvido para a disciplina de Bases de Dados no ano letivo de 2025. O projeto é dividido em duas partes principais:
+Este repositório contém o projeto desenvolvido para a disciplina de Bases de Dados no ano letivo de 2024-2025. O projeto é dividido em duas partes principais:
 
 1. **Parte 1 (E1)**: Modelagem e criação do modelo relacional.
 2. **Parte 2 (E2)**: Implementação de uma aplicação baseada em Flask para interagir com uma base de dados PostgreSQL.
@@ -49,9 +49,20 @@ A base de dados contém as seguintes tabelas principais:
 - `venda`: Registro de vendas de bilhetes.
 - `bilhete`: Informações sobre bilhetes emitidos.
 
+
 ### Consultas OLAP
 O projeto inclui consultas OLAP para análise de dados, como:
 - Taxa de ocupação de voos.
 - Rotas mais populares.
 - Estatísticas de vendas.
 
+### Nota final
+Primeira entrega:
+- 11.7
+Segunda entrega:
+-17.3
+Final:
+14.5
+
+
+#
