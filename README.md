@@ -67,7 +67,7 @@ The project includes OLAP queries for data analysis, such as:
 - Sales statistics.
 
 
-## Final Grades
+## Final Grade
 
 - **E1**: 11.7 / 20.0  
 - **E2**: 17.3 / 20.0  
