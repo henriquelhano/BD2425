@@ -7,7 +7,6 @@ The project is divided into two main parts:
 1. **Part 1 (E1)**: Modeling and creation of the relational model.  
 2. **Part 2 (E2)**: Implementation of a Flask-based application to interact with a PostgreSQL database.
 
----
 
 ## Repository Structure
 
@@ -36,8 +35,6 @@ The project is divided into two main parts:
 - **README.md**  
   This file.
 
----
-
 ## Features
 
 ### API Endpoints
@@ -48,7 +45,6 @@ The project is divided into two main parts:
 - `POST /compra/<voo>` — Registers the purchase of tickets for a given flight.  
 - `POST /checkin/<bilhete>` — Registers check-in for purchased tickets without an assigned seat.
 
----
 
 ## Database Schema
 
@@ -61,7 +57,6 @@ The database includes the following main tables:
 - **venda** — Ticket sale records.  
 - **bilhete** — Issued ticket information.
 
----
 
 ## OLAP Queries
 
@@ -71,7 +66,6 @@ The project includes OLAP queries for data analysis, such as:
 - Most popular routes.  
 - Sales statistics.
 
----
 
 ## Final Grades
 
@@ -79,7 +73,6 @@ The project includes OLAP queries for data analysis, such as:
 - **E2**: 17.3 / 20.0  
 - **Final Grade**: **14.5 / 20.0**
 
----
 
 ## Authors
 Developed as part of the **Databases** course (BD2425) at **Instituto Superior Técnico**.  
