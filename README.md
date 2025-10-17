@@ -18,10 +18,10 @@ The project is divided into two main parts:
 - **entrega2/**  
   Contains the files related to the second part of the project.  
   - `app/`: Flask application source code.  
-  - `app.py`: Main application file.  
-  - `docker-compose.yml`: Docker Compose configuration file.  
-  - `Dockerfile`: Docker container configuration.  
-  - `requirements.txt`: Project dependencies.  
+    - `app.py`: Main application file.  
+    - `docker-compose.yml`: Docker Compose configuration file.  
+    - `Dockerfile`: Docker container configuration.  
+    - `requirements.txt`: Project dependencies.  
   - `data/`: SQL scripts for database creation and manipulation.  
     - `aeroporto.csv`: Airports data.  
     - `aviao.csv`: Aircraft data.  
