@@ -1,62 +1,85 @@
-# BD2425 - Projeto de Bases de Dados
+# BD2425 - Database Project
 
-## Descrição Geral
-Este repositório contém o projeto desenvolvido para a disciplina de Bases de Dados no ano letivo de 2024-2025. O projeto é dividido em duas partes principais:
+## General Description
+This repository contains the project developed for the **Database Systems** course in the **2024–2025 academic year**.  
+The project is divided into two main parts:
 
-1. **Parte 1 (E1)**: Modelagem e criação do modelo relacional.
-2. **Parte 2 (E2)**: Implementação de uma aplicação baseada em Flask para interagir com uma base de dados PostgreSQL.
+1. **Part 1 (E1)**: Modeling and creation of the relational model.  
+2. **Part 2 (E2)**: Implementation of a Flask-based application to interact with a PostgreSQL database.
 
-## Estrutura do Repositório
+---
 
-- **entrega1/**: Contém o ficheiro relacionado com primeira parte do projeto, incluindo o modelo relacional e o enunciado.
-  - `entrega-bd-02-02.pdf`: Documento com o modelo entidade-associação, relacional e álgebra relacional.
+## Repository Structure
 
-- **entrega2/**: Contém os arquivos da segunda parte do projeto.
-  - `app/`: Código da aplicação Flask.
-    - `app.py`: Código principal da aplicação.
-    - `docker-compose.yml`: Configuração para execução com Docker.
-    - `Dockerfile`: Configuração do container Docker.
-    - `requirements.txt`: Dependências do projeto.
-  - `data/`: Scripts SQL para criação e manipulação da base de dados.
-    - `aeroporto.csv`: Ficheiro com os aeroportos.
-    - `aviao.csv`: Ficheiro com os aviões.
-    - `assento.csv`: Ficheiro com os assentos.
-    - `voo.csv`: Ficheiro com os voos.
-    - `bilhete.csv`: Ficheiro com os bilhetes.
-    - `venda.csv`: Ficheiro com as vendas.
-    - `populate.sql`: Inserção de dados provenientes dos ficheiros .csv.
-  - `aviacao.sql`: Criação das tabelas.
-  - `E2-report.ipynb`: Relatório em jupyter Notebook com as consultas.
-- **README.md**: Este arquivo.
+- **entrega1/**  
+  Contains the files related to the first part of the project, including the relational model and the assignment.  
+  - `entrega-bd-02-02.pdf`: Document with the entity–relationship model, relational model, and relational algebra.
 
+- **entrega2/**  
+  Contains the files related to the second part of the project.  
+  - `app/`: Flask application source code.  
+  - `app.py`: Main application file.  
+  - `docker-compose.yml`: Docker Compose configuration file.  
+  - `Dockerfile`: Docker container configuration.  
+  - `requirements.txt`: Project dependencies.  
+  - `data/`: SQL scripts for database creation and manipulation.  
+    - `aeroporto.csv`: Airports data.  
+    - `aviao.csv`: Aircraft data.  
+    - `assento.csv`: Seat data.  
+    - `voo.csv`: Flight data.  
+    - `bilhete.csv`: Ticket data.  
+    - `venda.csv`: Sales data.  
+    - `populate.sql`: Inserts data from the CSV files.  
+    - `aviacao.sql`: Creates database tables.  
+  - `E2-report.ipynb`: Jupyter Notebook report with queries and analysis.
 
-## Funcionalidades
+- **README.md**  
+  This file.
 
-### Endpoints da API
-- `GET /`: Lista todos os aeroportos.
-- `GET /voos/<partida>`: Lista voos a partir de um aeroporto específico.
-- `GET /voos/<partida>/<chegada>`: Lista voos entre dois aeroportos.
-- `POST /compra/<voo>`: Regista a compra de bilhetes para um voo.
-- `POST /checkin/<bilhete>`: Regista a o checkin dos bilhetes comprados sem lugar atribuído
+---
 
+## Features
 
-### Base de Dados
-A base de dados contém as seguintes tabelas principais:
-- `aeroporto`: Informações sobre aeroportos.
-- `aviao`: Informações sobre aviões.
-- `assento`: Assentos disponíveis nos aviões.
-- `voo`: Informações sobre voos.
-- `venda`: Registo de vendas de bilhetes.
-- `bilhete`: Informações sobre bilhetes emitidos.
+### API Endpoints
 
+- `GET /` — Lists all airports.  
+- `GET /voos/<partida>` — Lists flights departing from a specific airport.  
+- `GET /voos/<partida>/<chegada>` — Lists flights between two airports.  
+- `POST /compra/<voo>` — Registers the purchase of tickets for a given flight.  
+- `POST /checkin/<bilhete>` — Registers check-in for purchased tickets without an assigned seat.
 
-### Consultas OLAP
-O projeto inclui consultas OLAP para análise de dados, como:
-- Taxa de ocupação de voos.
-- Rotas mais populares.
-- Estatísticas de vendas.
+---
 
-### Nota Final
-- E1: 11.7 em 20.00
-- E2: 17.3 em 20.00
-- Nota Final: 14.5 em 20.00
+## Database Schema
+
+The database includes the following main tables:
+
+- **aeroporto** — Airport information.  
+- **aviao** — Aircraft information.  
+- **assento** — Seat information.  
+- **voo** — Flight information.  
+- **venda** — Ticket sale records.  
+- **bilhete** — Issued ticket information.
+
+---
+
+## OLAP Queries
+
+The project includes OLAP queries for data analysis, such as:
+
+- Flight occupancy rate.  
+- Most popular routes.  
+- Sales statistics.
+
+---
+
+## Final Grades
+
+- **E1**: 11.7 / 20.0  
+- **E2**: 17.3 / 20.0  
+- **Final Grade**: **14.5 / 20.0**
+
+---
+
+## Authors
+Developed as part of the **Database Systems** course (BD2425) at **Instituto Superior Técnico**.  
