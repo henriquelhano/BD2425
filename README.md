@@ -13,7 +13,7 @@ The project is divided into two main parts:
 
 - **entrega1/**  
   Contains the files related to the first part of the project, including the relational model and the assignment.  
-  - `entrega-bd-02-02.pdf`: Document with the entity–relationship model, relational model, and relational algebra.
+  - `entrega-bd-01-02.pdf`: Document with the entity–relationship model, relational model, and relational algebra.
 
 - **entrega2/**  
   Contains the files related to the second part of the project.  
