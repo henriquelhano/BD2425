@@ -1,7 +1,7 @@
 # BD2425 - Database Project
 
 ## General Description
-This repository contains the project developed for the **Database Systems** course in the **2024–2025 academic year**.  
+This repository contains the project developed for the **Databases** course in the **2024–2025 academic year**.  
 The project is divided into two main parts:
 
 1. **Part 1 (E1)**: Modeling and creation of the relational model.  
