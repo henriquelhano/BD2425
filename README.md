@@ -82,4 +82,4 @@ The project includes OLAP queries for data analysis, such as:
 ---
 
 ## Authors
-Developed as part of the **Database Systems** course (BD2425) at **Instituto Superior Técnico**.  
+Developed as part of the **Databases** course (BD2425) at **Instituto Superior Técnico**.  
